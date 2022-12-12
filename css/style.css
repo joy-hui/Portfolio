@@ -117,19 +117,22 @@ li a:hover{
 }
 
 .main{
-  
+  padding-top: 10px;
   text-align: center;
   position:relative;
   top: 0;
   left: 15rem;
   display: flex;
   flex-direction: column;
-  width: 75rem;
   height: 100%;
+  width: 75rem;
+  
 }
+
 
 #categoryGrid {
   
+  padding-top: 10px;
   display: grid;
   grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh;
   grid-template-columns: 1fr;
@@ -143,34 +146,44 @@ li a:hover{
   ;
 }
 
+.categoryGridArea{
+  
+  border-bottom-style:double;
+  border-color: #343a40;
+ 
+}
+
+
+
 #ABOUTME{
   grid-area:ABOUTME ;
   background-color:white;
+  
 }
 
 #EXPERIENCE{
   grid-area:EXPERIENCE ;
-  background-color: blue;
+  background-color: white;
 }
 
 #EDUCATION{
   grid-area:EDUCATION ;
-  background-color: blueviolet;
+  background-color: white;
 }
 
 #SKILLS{
   grid-area:SKILLS ;
-  background-color: chartreuse;
+  background-color: white;
 }
 
 #INTERESTS{
   grid-area:INTERESTS ;
-  background-color: gold;
+  background-color: white;
 }
 
 #AWARDS{
  grid-area:AWARDS ;
- background-color: violet;
+ background-color: white;
 
 }
 
@@ -205,6 +218,13 @@ li a:hover{
   margin-left: 20px;
 }
 
+.heading1{
+  text-align: left;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
 .h11{
   margin-left: 20px;
   font-weight: 500px;
@@ -212,6 +232,8 @@ li a:hover{
   font-size: 60px;
   color: #343a40;
 }
+
+
 
 .h22{
   font-weight: 500;
@@ -221,15 +243,46 @@ li a:hover{
   margin-top: 10px;
 }
 
+.h222{
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed',serif;
+  font-size: 20px;
+  color:#0b7ef0;
+  margin-top: 10px;
+}
+
 .p11{
   font-weight: 500;
   font-family: 'Saira Extra Condensed',serif;
   font-size: 1.35rem;
   color:#343a40;
   margin-top: 80px;
+  margin-right: 60px;
+  word-wrap: break-word;
+  word-break: break-all;
+  width:auto;
 }
 
+.p111{
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed',serif;
+  font-size: 1.35rem;
+  color:#343a40;
+  margin-top: 30px;
+  margin-right: 60px;
+  word-wrap: break-word;
+  word-break: break-all;
+  width:auto;
+}
 
+.icons{
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+
+}
 
 
 
@@ -238,21 +291,34 @@ li a:hover{
   .heading {
     text-align:left;
     word-wrap: break-word;
-    display: block;
-    width: 300px;
+    width:auto;
+    
   }
   .p11{
     word-wrap: break-word;
-    width: 300px;
+    word-break: break-all;
+    width:auto;
+
   }
- 
-  
+
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 500px) {
   #addheader{
     display: none;
   }
-  
-}
+  .main{
+    left: 0px;
+    width: auto;
+  }
+ #addul{
+  display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+ }
+
+
 
