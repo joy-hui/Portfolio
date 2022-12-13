@@ -226,7 +226,7 @@ li a:hover{
 }
 
 .h11{
-  margin-left: 20px;
+  margin-left: 2px;
   font-weight: 500px;
   font-family: 'Saira Extra Condensed',serif;
   font-size: 60px;
@@ -248,7 +248,7 @@ li a:hover{
   font-family: 'Saira Extra Condensed',serif;
   font-size: 20px;
   color:#0b7ef0;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .p11{
@@ -284,7 +284,7 @@ li a:hover{
 
 }
 
-
+.icons a:hover img{filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5}
 
 
 @media only screen and (max-width: 1000px) {
